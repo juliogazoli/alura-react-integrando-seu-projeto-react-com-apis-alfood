@@ -39,7 +39,7 @@ const FormularioRestaurante = () => {
     }
 
     return (
-        <form onSubmit={ aoSubmeterForm }>
+        <form onSubmit={aoSubmeterForm}>
             <TextField value={nomeRestaurante}
                 onChange={evento => setNomeRestaurante(evento.target.value)}
                 label="Nome do Restaurante"
